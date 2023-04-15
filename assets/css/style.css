@@ -9,4 +9,25 @@
 body {
     font-family: hind-madural, sans-serif;
     font-weight: 300;
+    color: #000;
+}
+
+/* headings and logo */
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 1px;
+    color: #27289b;
+
+}
+
+h2 {
+    font-family: Lora, sans-serif;
+    letter-spacing: 1px;
+    color: #aaa;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
