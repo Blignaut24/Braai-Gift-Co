@@ -63,3 +63,13 @@ h2 {
     border-bottom: 1px solid #892a1c;
 
 }
+
+/* hero image */
+/* JJB: This might need to be adapted for my website introduction section*/
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
+}
+
