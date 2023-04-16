@@ -73,3 +73,78 @@ h2 {
     background: url('../images/hero-image.webp') no-repeat center center;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Hind+Madurai:wght@300&family=Lora:ital@1&family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: hind-madural, sans-serif;
+    font-weight: 300;
+    color: #000;
+}
+
+/* headings and logo */
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 1px;
+    color: #27289b;
+
+}
+
+h2 {
+    font-family: Lora, sans-serif;
+    letter-spacing: 1px;
+    color: #aaa;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
+
+/* navigation link */
+
+#menu{
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+}
+
+#menu a:hover {
+    font-size: large;
+    color: #27289b;
+}
+
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.active {
+    border-bottom: 1px solid #892a1c;
+
+}
+
+/* hero image */
+/* JJB: This might need to be adapted for my website introduction section*/
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
+}
+
