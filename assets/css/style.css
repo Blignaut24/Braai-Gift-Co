@@ -66,12 +66,18 @@ h2 {
 
 }
 
-/* hero image */
+/* hero image  and cover text*/
 
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text h2 {
+    color: #fff;
 }
 
 #hero-image {
@@ -98,4 +104,30 @@ h2 {
  nav, #menu, header {
     background-color: #000 !important;
     min-height: 75px;
+ }
+
+ #cover-text {
+    font-size: 80%;
+    color: #fff;
+    font-family: hind-madural, sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+
+    width: 125px;
+    height: 75px;
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+
+    right: -50px;
+
+    background-color: #000;
+
+    bottom: 30px;
+    right: 500px;
+
+    position: absolute;
+
+    
  }
