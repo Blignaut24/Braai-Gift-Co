@@ -18,6 +18,7 @@ h1 {
     font-family: Montserrat, sans-serif;
     letter-spacing: 1px;
     color: #000;
+    text-align: center;
 
 }
 
@@ -128,7 +129,7 @@ h2 {
     background-color: #000;
 
     bottom: 30px;
-    right: 650px;
+    right: 450px;
 
     position: absolute;
 
@@ -140,30 +141,14 @@ h2 {
     height: 600px;
  }
 
- #left-introduction {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    background-color: blue;
+ #introduction-content {
+   
+    width: 33.33%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
  }
 
- #right-introduction {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    background-color: silver;
- }
-
- #center-introduction {
-    width: 33%;
-    margin: 0 auto ;
-    background-color: green;
- }
-
- .left-about-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 50px;
-}
+ ba
