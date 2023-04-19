@@ -26,6 +26,11 @@ h2 {
     font-family: Lora, sans-serif;
     letter-spacing: 2px;
     color: #000;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 p {
@@ -78,6 +83,11 @@ p {
 
 }
 
+nav, #menu, header {
+    background-color: #000 !important;
+    min-height: 75px;
+ }
+
 /* hero image  and cover text*/
 
 #hero-outer {
@@ -89,10 +99,6 @@ p {
     position: relative;
 }
 
-#cover-text h2 {
-    color: #fff;
-}
-
 #hero-image {
     height: 600px;
     width: 100%;
@@ -102,7 +108,6 @@ p {
      animation-name: hero-zoom;
      animation-duration: 5s;
      animation-fill-mode: forwards;
-
  }
  
  /* creates the level of zoom for hero image */
@@ -115,20 +120,15 @@ p {
      }
  }
 
- nav, #menu, header {
-    background-color: #000 !important;
-    min-height: 75px;
- }
-
- #cover-text {
-    font-size: 80%;
+ #cover-text h2 {
+    font-size: large;
     color: #fff;
     font-family: hind-madural, sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align: center;
 
     width: 125px;
-    height: 75px;
+    height: 65px;
 
     padding-top: 25px;
     padding-bottom: 25px;
@@ -150,13 +150,5 @@ p {
     height: 600px;
  }
 
- #introduction-content {
-   
-    width: 50%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
- }
 
  
