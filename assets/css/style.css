@@ -26,7 +26,7 @@ h2 {
     font-family: Lora, sans-serif;
     letter-spacing: 2px;
     color: #000;
-    width: 50%;
+    width: 40%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -40,6 +40,8 @@ p {
      display: flex;
      justify-content: center;
      text-align: center;
+    width: 25%;
+ 
  }
 
 .logo {
@@ -157,5 +159,9 @@ p {
  /* introduction */
 
  #introduction {
-    height: 600px;
- }
+    height: 500px; /* Adjust the height of the box container*/
+   
+ } 
+#introduction-paragraph {
+  line-height: 1.6;
+}
