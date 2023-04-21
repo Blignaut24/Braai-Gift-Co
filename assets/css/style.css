@@ -36,12 +36,12 @@ h2 {
 p {
     width: 33.33%;
     letter-spacing: 3px;
-     margin: 0 auto;
-     display: flex;
-     justify-content: center;
-     text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     width: 25%;
- 
+    line-height: 1.6;
  }
 
 .logo {
@@ -201,10 +201,6 @@ p {
     background-color: #ffffff; /* Remove: design help*/
  } 
 
-#introduction-paragraph {
-  line-height: 1.6;
-}
-
 /* icons: shopping & box gallery */
 
 .icon-container {
@@ -219,10 +215,19 @@ p {
     margin-right: 400px;
 }
 
-
-
 /* horizontal line */
 .horizontal-line {
     border-top: 5px solid #1e1e1e; /* Can adjust line properties here e.g, thickness */
     margin-top: 20px;
+}
+
+/* box-gallery */
+.box-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-gallery {
+    width: 30%;
+    height: auto;
 }
