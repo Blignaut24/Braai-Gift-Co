@@ -89,7 +89,7 @@ p {
     min-height: 75px;
  }
 
-/* The navigation bar */
+/* navigation bar */
 #navbar {
   overflow: hidden;
   background-color: #333;
@@ -99,10 +99,48 @@ p {
   z-index: 1;
 }
 
+/* order icon button */
+    .order-button {
+    background: #dc0000;
+    border: 1px solid #dc0000;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    }
+
+/* order button hover*/
+    .order-button:hover,
+    .order-button:active {
+        background-color: initial;
+        background-position: 0 0;
+        color: #dc0000;
+    }
+
+    .order-button:active {
+        opacity:.5;
+    }
+
 /* hero image  and cover text*/
 
 #hero-outer {
-    height: 500px; /* adjust the height value to make the container smaller */
+    height: 600px; /* adjust the height value to make the container smaller */
     width: 100%;
     overflow: hidden;
     margin-bottom: 30px;
@@ -110,7 +148,7 @@ p {
   }
   
   #hero-image {
-    height: 500px; /* adjust the height value to make the image smaller */
+    height: 600px; /* adjust the height value to make the image smaller */
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -156,12 +194,35 @@ p {
 
  }
 
- /* introduction */
+ /* introduction section*/
 
- #introduction {
-    height: 500px; /* Adjust the height of the box container*/
-   
+#introduction {
+    height: 800px; /* Adjust the height of the box container*/
+    background-color: #ffffff; /* Remove: design help*/
  } 
+
 #introduction-paragraph {
   line-height: 1.6;
+}
+
+/* icons: shopping & box gallery */
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-container div {
+    margin: 0 10 px;
+    margin-top: 30px; /*Can adjust icon positioning with the margins. Put background-color on both .icon-container & .icon-container dive to help adjust*/ 
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+
+
+/* horizontal line */
+.horizontal-line {
+    border-top: 5px solid #1e1e1e; /* Can adjust line properties here e.g, thickness */
+    margin-top: 20px;
 }
