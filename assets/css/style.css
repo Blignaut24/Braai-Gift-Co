@@ -198,8 +198,8 @@ p {
  /* introduction section*/
 
 #introduction {
-    height: 800px; /* Adjust the height of the box container*/
-    background-color: orange; /* Remove: design help*/
+    height: fit-content; /* Adjust the height of the box container*/
+    background-color: white; /* Remove: design help*/
  } 
 
 /* icons: shopping & box gallery */
@@ -207,13 +207,15 @@ p {
 .icon-container {
     display: flex;
     justify-content: space-between;
+    background-color: white; /* Remove: design help*/
+    margin: 25px 450px;
 }
 
 .icon-container div {
-    margin: 0 10 px;
-    margin-top: 30px; /*Can adjust icon positioning with the margins. Put background-color on both .icon-container & .icon-container dive to help adjust*/ 
-    margin-left: 400px;
-    margin-right: 400px;
+    margin: 25 35 px;
+    height: fit-content;
+    background-color: white; /* Remove: design help*/
+   
 }
 
 /* horizontal line */
@@ -225,8 +227,8 @@ p {
 /*What is a braai? - Section */
 
 #braai {
-    height: 1000px; /* Adjust the height of the box container*/
-    background-color: pink; /* Remove: design help*/
+    height: fit-content;  /* Adjust the height of the box container*/
+    background-color: white; /* Remove: design help*/
 }
 
 /* NOTE: DELETE IF NOT USED!!!
@@ -236,30 +238,85 @@ p {
 */
 
 #braai-image {
-    height: 450px;
+    height: fit-content;
     width: 50%;
     display: block;
     margin: 0 auto;
-    background-color: yellowgreen;
+    background-color: white; /* Remove: design help*/
     margin-left: 450px;
 }
 
-/* NOTE: DELETE IF NOT USED!
 #braai-sub-title {
-}
-*/
+    margin-top: 25px;}
 
-/* NOTE: DELETE IS NOT USED!
-#braai-paragraph
-*/
+
+#braai-paragraph {
+    margin-top: 25px;
+}
 
 /*what is in the box?- section*/
 
 #box {
-    height: 1000px; /* Adjust the height of the box container*/
-    background-color: purple; /* Remove: design help*/
+    height: fit-content;  /* Adjust the height of the box container*/
+    background-color: white; /* Remove: design help*/
 }
 
 #box-title {
-    
+    background-color: white; /* Remove: design help*/
+    height: fit-content;
+}
+
+
+#box-image {
+    height: fit-content;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background-color: white; /* Remove: design help*/
+    margin-left: 450px;
+}
+
+#box-sub-title {
+    background-color: white; /* Remove: design help*/
+    height: fit-content;
+    margin-top: 25px;
+}
+
+#box-paragraph {
+    background-color: white; /* Remove: design help*/
+    height: fit-content;
+    margin-top: 25px;
+}
+
+/*what on the menu*/
+
+#menu-section {
+    height: fit-content;  /* Adjust the height of the box container*/
+    background-color: white; /* Remove: design help*/
+}
+
+#menu-title {
+    background-color: white; /* Remove: design help*/
+    height: fit-content;
+}
+
+#menu-image{
+    height: fit-content;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background-color: white; /* Remove: design help*/
+    margin-left: 600px;
+}
+
+#menu-sub-title {
+    background-color: white; /* Remove: design help*/
+    height: fit-content;
+    margin-top: 25px;
+}
+
+#menu-paragraph {
+    background-color: white; /* Remove: design help*/
+    height: fit-content;
+    margin-top: 25px;
 }
