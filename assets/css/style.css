@@ -19,6 +19,7 @@ h1 {
     letter-spacing: 1px;
     color: #000;
     text-align: center;
+    font-size: xx-large;
 
 }
 
@@ -198,7 +199,7 @@ p {
 
 #introduction {
     height: 800px; /* Adjust the height of the box container*/
-    background-color: #ffffff; /* Remove: design help*/
+    background-color: orange; /* Remove: design help*/
  } 
 
 /* icons: shopping & box gallery */
@@ -221,13 +222,44 @@ p {
     margin-top: 20px;
 }
 
-/* box-gallery */
-.box-gallery {
-    display: flex;
-    justify-content: space-between;
+/*What is a braai? - Section */
+
+#braai {
+    height: 1000px; /* Adjust the height of the box container*/
+    background-color: pink; /* Remove: design help*/
 }
 
-.box-gallery {
-    width: 30%;
-    height: auto;
+/* NOTE: DELETE IF NOT USED!!!
+#braai-title {
+
+}
+*/
+
+#braai-image {
+    height: 450px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background-color: yellowgreen;
+    margin-left: 450px;
+}
+
+/* NOTE: DELETE IF NOT USED!
+#braai-sub-title {
+}
+*/
+
+/* NOTE: DELETE IS NOT USED!
+#braai-paragraph
+*/
+
+/*what is in the box?- section*/
+
+#box {
+    height: 1000px; /* Adjust the height of the box container*/
+    background-color: purple; /* Remove: design help*/
+}
+
+#box-title {
+    
 }
