@@ -19,8 +19,6 @@ h1 {
     letter-spacing: 1px;
     color: #000;
     text-align: center;
-    font-size: xx-large;
-
 }
 
 h2 {
@@ -132,10 +130,6 @@ p {
         background-color: initial;
         background-position: 0 0;
         color: #dc0000;
-    }
-
-    .order-button:active {
-        opacity:.5;
     }
 
 /* hero image  and cover text*/
@@ -378,18 +372,43 @@ p {
     font-family: Aboreto, sans-serif;
   }
   
-  button {
-    background-color: #fff;
-    border: none;
-    color: black;
-    font-size: 1.2rem;
-    padding: 10px 20px;
-    transition: all 0.3s ease;
-  }
-  
-  button:hover {
-    background-color: #000;
-    color: #fff;
-    cursor: pointer;
-  }
+/* who are we */
+ #about {
+    height: fit-content;  /* Adjust the height of the box container*/
+    background-color: pink; /* Remove: design help*/
+ }
+
+ #about-image{
+    height: fit-content;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background-color: white; /* Remove: design help*/
+    margin-left: 450px;
+ }
+
+ #about-sub-title {
+    background-color: white; /* Remove: design help*/
+    height: fit-content;
+    margin-top: 25px;
+ }
+
+ #about-paragraph {
+    background-color: white; /* Remove: design help*/
+    height: fit-content;
+    margin-top: 25px;
+ }
+
+ /*Recipe of the Month*/
+ 
+ #recipe {
+    height: fit-content;  /* Adjust the height of the box container*/
+    background-color: white; /* Remove: design help*/
+ }
+
+ #recipe-title {
+    background-color: white; /* Remove: design help*/
+    height: fit-content;
+ }
+
   
