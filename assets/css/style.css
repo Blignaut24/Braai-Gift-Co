@@ -411,4 +411,49 @@ p {
     height: fit-content;
  }
 
-  
+ /*contact information*/
+
+#contact-details {
+    height: fit-content;  /* Adjust the height of the box container*/
+    background-color: white; /* Remove: design help*/
+}
+
+#contact-details-title {
+    background-color: white; /* Remove: design help*/
+    height: fit-content;
+}
+
+.contact-sub-title {
+    background-color: white; /* Remove: design help*/
+    height: fit-content;
+    margin-top: 25px;
+}
+
+.contact-paragraph {
+    background-color: white; /* Remove: design help*/
+    height: fit-content;
+    margin-top: 25px;
+    text-align: left;
+}
+
+/*footer*/
+
+footer {
+    height: fit-content;
+    background-color: #000;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color:#FFFFFF
+}
