@@ -33,7 +33,6 @@ h2 {
 }
 
 p {
-    width: 33.33%;
     letter-spacing: 3px;
     margin: 0 auto;
     display: flex;
@@ -86,6 +85,12 @@ p {
 .menu, header {
     background-color: #000 !important;
     min-height: 75px;
+ }
+
+ header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
  }
 
 /* navigation bar */
