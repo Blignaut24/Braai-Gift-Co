@@ -1,233 +1,232 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Hind+Madurai:wght@300&family=Lora:ital@1&family=Montserrat:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Hind+Madurai:wght@300&family=Lora:ital@1&family=Montserrat:wght@600&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 body {
-    font-family: hind-madural, sans-serif;
-    font-weight: 300;
-    color: #000;
+  font-family: hind-madural, sans-serif;
+  font-weight: 300;
+  color: #000;
 }
 
 /* headings and logo */
 
 h1 {
-    font-family: Montserrat, sans-serif;
-    letter-spacing: 1px;
-    color: #000;
-    text-align: center;
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 1px;
+  color: #000;
+  text-align: center;
 }
 
 h2 {
-    font-family: Lora, sans-serif;
-    letter-spacing: 2px;
-    color: #000;
-    width: 40%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  font-family: Lora, sans-serif;
+  letter-spacing: 2px;
+  color: #000;
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 p {
-    letter-spacing: 3px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    width: 25%;
-    line-height: 1.6;
- }
+  letter-spacing: 3px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 25%;
+  line-height: 1.6;
+}
 
 .logo {
-    float: left;
-    font-size: 280%;
-    color: #ffffff;
-    margin-left: 30px;
-    font-family: Aboreto, sans-serif;
+  float: left;
+  font-size: 280%;
+  color: #ffffff;
+  margin-left: 30px;
+  font-family: Aboreto, sans-serif;
 }
 
 /* navigation link */
 
-.menu{
-    font-size: 110%;
-    letter-spacing: 1px;
-    color: #D7D7D7;
+.menu {
+  font-size: 110%;
+  letter-spacing: 1px;
+  color: #d7d7d7;
 }
 
-.menu, .logo {
-    line-height: 75px; 
+.menu,
+.logo {
+  line-height: 75px;
 }
 
 .menu li {
-    float: right;
-    margin-right: 30px;
-    list-style-type: none;
+  float: right;
+  margin-right: 30px;
+  list-style-type: none;
 }
 
 .menu a:hover {
-    font-size: large;
-    color: #fff;
+  font-size: large;
+  color: #fff;
 }
 
-.menu a{
-    text-decoration: none;
-    color: inherit;
+.menu a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .active {
-    border-bottom: 1px solid #892a1c;
+  border-bottom: 1px solid #892a1c;
 }
 
-.menu, header {
-    background-color: #000 !important;
-    min-height: 75px;
- }
+.menu,
+header {
+  background-color: #000 !important;
+  min-height: 75px;
+}
 
- header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 /* navigation bar */
 #navbar {
   overflow: hidden;
   background-color: #333;
-  position: fixed; 
-  top: 0; 
-  width: 100%; 
+  position: fixed;
+  top: 0;
+  width: 100%;
   z-index: 1;
 }
 
 /* order icon button */
-    .order-button {
-    background: #dc0000;
-    border: 1px solid #dc0000;
-    border-radius: 6px;
-    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-    font-size: 16px;
-    font-weight: 800;
-    line-height: 16px;
-    min-height: 40px;
-    outline: 0;
-    padding: 12px 14px;
-    text-align: center;
-    text-rendering: geometricprecision;
-    text-transform: none;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: middle;
-    }
+.order-button {
+  background: #dc0000;
+  border: 1px solid #dc0000;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
 
 /* order button hover*/
-    .order-button:hover,
-    .order-button:active {
-        background-color: initial;
-        background-position: 0 0;
-        color: #dc0000;
-    }
+.order-button:hover,
+.order-button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #dc0000;
+}
 
 /* hero image  and cover text*/
 
 #hero-outer {
-    height: 600px; /* adjust the height value to make the container smaller */
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 30px;
-    position: relative;
+  height: 600px; /* Remove: adjust the height value to make the container smaller */
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+#hero-image {
+  height: 600px; /* Remove: adjust the height value to make the image smaller */
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  background: url("../images/hero-image.png") no-repeat center center;
+  margin-top: 100px;
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+  background-size: contain; /* adjust the background-size property to fit the image within the container while maintaining its aspect ratio */
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+  from {
+    transform: scale(1);
   }
-  
-  #hero-image {
-    height: 600px; /* adjust the height value to make the image smaller */
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    background: url('../images/hero-image.png') no-repeat center center;
-    margin-top: 100px;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    background-size: contain; /* adjust the background-size property to fit the image within the container while maintaining its aspect ratio */
+  to {
+    transform: scale(1.1);
   }
- 
- /* creates the level of zoom for hero image */
- @keyframes hero-zoom {
-     from{
-         transform: scale(1);
-     }
-     to {
-         transform: scale(1.1);
-     }
- }
+}
 
- #cover-text h2 {
-    font-size: large;
-    color: #fff;
-    font-family: hind-madural, sans-serif;
-    letter-spacing: 1px;
-    text-align: center;
+#cover-text h2 {
+  font-size: large;
+  color: #fff;
+  font-family: hind-madural, sans-serif;
+  letter-spacing: 1px;
+  text-align: center;
 
-    width: 125px;
-    height: 65px;
+  width: 125px;
+  height: 65px;
 
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 5px;
 
+  background-color: #000;
 
-    background-color: #000;
+  bottom: 30px;
+  right: 20%; /*Remove: Adjust the cover-text block image right or left here, the more & the more left it goes*/
 
-    bottom: 30px;
-    right: 650px; /*Adjust the cover-text block image right or left here, the more px the more left it goes*/
+  position: absolute;
+}
 
-    position: absolute;
-
- }
-
- /* introduction section*/
+/* introduction section*/
 
 #introduction {
-    height: fit-content; /* Adjust the height of the box container*/
-    background-color: white; /* Remove: design help*/
- } 
+  height: fit-content; /* Adjust the height of the box container*/
+  background-color: white; /* Remove: design help*/
+}
 
 /* icons: shopping & box gallery */
 
 .icon-container {
-    display: flex;
-    justify-content: space-between;
-    background-color: white; /* Remove: design help*/
-    margin: 25px 450px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white; /* Remove: design help*/
+  margin: 25px 450px;
 }
 
 .icon-container div {
-    margin: 25 35 px;
-    height: fit-content;
-    background-color: white; /* Remove: design help*/
-   
+  margin: 25 35 px;
+  height: fit-content;
+  background-color: white; /* Remove: design help*/
 }
 
 /* horizontal line */
 .horizontal-line {
-    border-top: 5px solid #1e1e1e; /* Can adjust line properties here e.g, thickness */
-    margin-top: 20px;
+  border-top: 5px solid #1e1e1e; /* Can adjust line properties here e.g, thickness */
+  margin-top: 20px;
 }
 
 /*What is a braai? - Section */
 
 #braai {
-    height: fit-content;  /* Adjust the height of the box container*/
-    background-color: white; /* Remove: design help*/
+  height: fit-content; /* Adjust the height of the box container*/
+  background-color: white; /* Remove: design help*/
 }
 
 /* NOTE: DELETE IF NOT USED!!!
@@ -237,241 +236,217 @@ p {
 */
 
 #braai-image {
-    height: fit-content;
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-    background-color: white; /* Remove: design help*/
-    margin-left: 450px;
+  height: fit-content;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  background-color: white; /* Remove: design help*/
+  margin-left: 28%; /*Remove: move braai-image higher = right */
 }
 
 #braai-sub-title {
-    margin-top: 25px;}
-
+  margin-top: 25px;
+}
 
 #braai-paragraph {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 /*what is in the box?- section*/
 
 #box {
-    height: fit-content;  /* Adjust the height of the box container*/
-    background-color: white; /* Remove: design help*/
+  height: fit-content; /* Adjust the height of the box container*/
+  background-color: white; /* Remove: design help*/
 }
 
 #box-title {
-    background-color: white; /* Remove: design help*/
-    height: fit-content;
+  background-color: white; /* Remove: design help*/
+  height: fit-content;
 }
 
-
 #box-image {
-    height: fit-content;
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-    background-color: white; /* Remove: design help*/
-    margin-left: 450px;
+  height: fit-content;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  background-color: white; /* Remove: design help*/
+  margin-left: 28%; /*Remove: move braai-image higher = right */
 }
 
 #box-sub-title {
-    background-color: white; /* Remove: design help*/
-    height: fit-content;
-    margin-top: 25px;
+  background-color: white; /* Remove: design help*/
+  height: fit-content;
+  margin-top: 25px;
 }
 
 #box-paragraph {
-    background-color: white; /* Remove: design help*/
-    height: fit-content;
-    margin-top: 25px;
+  background-color: white; /* Remove: design help*/
+  height: fit-content;
+  margin-top: 25px;
 }
 
 /*what is on the menu*/
 
 #menu-section {
-    height: fit-content;  /* Adjust the height of the box container*/
-    background-color: white; /* Remove: design help*/
+  height: fit-content; /* Adjust the height of the box container*/
+  background-color: white; /* Remove: design help*/
 }
 
 #menu-title {
-    background-color: white; /* Remove: design help*/
-    height: fit-content;
+  background-color: white; /* Remove: design help*/
+  height: fit-content;
 }
 
-#menu-image{
-    height: fit-content;
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-    background-color: white; /* Remove: design help*/
-    margin-left: 600px;
+#menu-image {
+  height: fit-content;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  background-color: white; /* Remove: design help*/
+  margin-left: 39%; /*Remove: move braai-image higher = right */
 }
 
 #menu-sub-title {
-    background-color: white; /* Remove: design help*/
-    height: fit-content;
-    margin-top: 25px;
+  background-color: white; /* Remove: design help*/
+  height: fit-content;
+  margin-top: 25px;
 }
 
 #menu-paragraph {
-    background-color: white; /* Remove: design help*/
-    height: fit-content;
-    margin-top: 25px;
+  background-color: white; /* Remove: design help*/
+  height: fit-content;
+  margin-top: 25px;
 }
 
 /* what are the box packages*/
 
 #package {
-    height: fit-content;  /* Adjust the height of the box container*/
-    background-color: white; /* Remove: design help*/
-  }
+  height: fit-content; /* Adjust the height of the box container*/
+  background-color: white; /* Remove: design help*/
+}
 
 #packages-title {
-    background-color: white; /* Remove: design help*/
-    height: fit-content;
+  background-color: white; /* Remove: design help*/
+  height: fit-content;
 }
-  
-  #pricing {
-    display: flex;
-    justify-content: center;
-  
-  }
 
-  .pricing-table {
-    border: 2px solid black;
-    background-color: black;
-    color: #fff;
-    padding: 30px;
-    text-align: center;
-    margin: 20px;
-    width: 25%;
-  }
-  
-  .pricing-table h2 {
-    font-size: 2rem;
-    font-weight: normal;
-    margin-bottom: 20px;
-  }
-  
-  .price {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    font-family: Lora, sans-serif;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin-bottom: 30px;
-    padding: 0;
-  }
-  
-  ul li {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-  }
+#pricing {
+  display: flex;
+  justify-content: center;
+}
 
-  .price-tag {
-    color: #dc0000;
-    font-size: xx-large;
-    font-family: Aboreto, sans-serif;
-  }
-  
-/* who are we */
- #about {
-    height: fit-content;  /* Adjust the height of the box container*/
-    background-color: pink; /* Remove: design help*/
- }
+.pricing-table {
+  border: 2px solid black;
+  background-color: black;
+  color: #fff;
+  padding: 30px;
+  padding-top: 2px;
+  text-align: center;
+  margin: 20px;
+  width: 25%;
+}
 
- #about-image{
-    height: fit-content;
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-    background-color: white; /* Remove: design help*/
-    margin-left: 450px;
- }
+.pricing-table h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
 
- #about-sub-title {
-    background-color: white; /* Remove: design help*/
-    height: fit-content;
-    margin-top: 25px;
- }
+.price {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: Lora, sans-serif;
+}
 
- #about-paragraph {
-    background-color: white; /* Remove: design help*/
-    height: fit-content;
-    margin-top: 25px;
- }
+ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+  padding: 0;
+}
 
- /*Recipe of the Month*/
- 
- #recipe {
-    height: fit-content;  /* Adjust the height of the box container*/
-    background-color: white; /* Remove: design help*/
- }
+ul li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
 
- #recipe-title {
-    background-color: white; /* Remove: design help*/
-    height: fit-content;
- }
+.price-tag {
+  color: #dc0000;
+  font-size: xx-large;
+  font-family: Aboreto, sans-serif;
+}
 
- /*contact information*/
+/*Recipe of the Month*/
+
+#recipe {
+  height: fit-content; /* Adjust the height of the box container*/
+  background-color: white; /* Remove: design help*/
+}
+
+#recipe-title {
+  background-color: white; /* Remove: design help*/
+  height: fit-content;
+}
+
+#recipe-video {
+  left: 70%;
+}
+
+/*contact information*/
 
 #contact-details {
-    height: fit-content;  /* Adjust the height of the box container*/
-    background-color: white; /* Remove: design help*/
+  height: fit-content; /* Adjust the height of the box container*/
+  background-color: white; /* Remove: design help*/
 }
 
 #contact-details-title {
-    background-color: white; /* Remove: design help*/
-    height: fit-content;
+  background-color: white; /* Remove: design help*/
+  height: fit-content;
 }
 
 .contact-sub-title {
-    background-color: white; /* Remove: design help*/
-    height: fit-content;
-    margin-top: 25px;
+  background-color: white; /* Remove: design help*/
+  height: fit-content;
+  margin-top: 25px;
 }
 
 .contact-paragraph {
-    background-color: white; /* Remove: design help*/
-    height: fit-content;
-    margin-top: 25px;
-    text-align: left;
+  background-color: white; /* Remove: design help*/
+  height: fit-content;
+  margin-top: 25px;
+  text-align: left;
 }
 
 /*footer*/
 
 footer {
-    height: fit-content;
-    background-color: #000;
+  height: fit-content;
+  background-color: #000;
 }
 
 .social-networks {
-    text-align: center;
+  text-align: center;
 }
 
 .social-networks > li {
-    display: inline;
+  display: inline;
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color:#FFFFFF
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: #ffffff;
 }
 
 /* gallery */
 
 #photos {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
 }
 
 #photos > img {
-    width: 100%;
+  width: 100%;
 }
