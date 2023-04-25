@@ -1,232 +1,244 @@
 @import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Hind+Madurai:wght@300&family=Lora:ital@1&family=Montserrat:wght@600&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  border: none;
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 body {
-  font-family: hind-madural, sans-serif;
-  font-weight: 300;
-  color: #000;
+    font-family: hind-madural, sans-serif;
+    font-weight: 300;
+    color: #000;
 }
 
 /* -----------------------------------------------------------Headings and logo */
 
 h1 {
-  font-family: Montserrat, sans-serif;
-  letter-spacing: 1px;
-  color: #000;
-  text-align: center;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 1px;
+    color: #000;
+    text-align: center;
 }
 
 h2 {
-  font-family: Lora, sans-serif;
-  letter-spacing: 2px;
-  color: #000;
-  width: 40%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  text-align: center;
+    font-family: Lora, sans-serif;
+    letter-spacing: 2px;
+    color: #000;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 p {
-  letter-spacing: 3px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  width: 25%;
-  line-height: 1.6;
+    letter-spacing: 3px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+    line-height: 1.6;
 }
 
 .logo {
-  float: left;
-  font-size: 280%;
-  color: #ffffff;
-  margin-left: 30px;
-  font-family: Aboreto, sans-serif;
+    float: left;
+    font-size: 280%;
+    color: #ffffff;
+    margin-left: 30px;
+    font-family: Aboreto, sans-serif;
 }
 
 /*-----------------------------------------------------------Navigation link */
 
 .menu {
-  font-size: 110%;
-  letter-spacing: 1px;
-  color: #d7d7d7;
+    font-size: 110%;
+    letter-spacing: 1px;
+    color: #d7d7d7;
 }
 
 .menu,
 .logo {
-  line-height: 75px;
+    line-height: 75px;
 }
 
 .menu li {
-  float: right;
-  margin-right: 30px;
-  list-style-type: none;
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
 }
 
 .menu a:hover {
-  font-size: large;
-  color: #fff;
+    font-size: large;
+    color: #fff;
 }
 
 .menu a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 .active {
-  border-bottom: 1px solid #892a1c;
+    border-bottom: 1px solid #892a1c;
 }
 
 .menu,
 header {
-  background-color: #000 !important;
-  min-height: 75px;
+    background-color: #000 !important;
+    min-height: 75px;
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* -----------------------------------------------------------Navigation bar */
 #navbar {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 /* -----------------------------------------------------------Order icon button */
 .order-button {
-  background: #dc0000;
-  border: 1px solid #dc0000;
-  border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
-  box-sizing: border-box;
-  color: #ffffff;
-  cursor: pointer;
-  display: inline-block;
-  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
-  font-size: 16px;
-  font-weight: 800;
-  line-height: 16px;
-  min-height: 40px;
-  outline: 0;
-  padding: 12px 14px;
-  text-align: center;
-  text-rendering: geometricprecision;
-  text-transform: none;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: middle;
+    background: #dc0000;
+    border: 1px solid #dc0000;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
 }
 
 /* -----------------------------------------------------------Order button hover*/
 .order-button:hover,
 .order-button:active {
-  background-color: initial;
-  background-position: 0 0;
-  color: #dc0000;
+    background-color: initial;
+    background-position: 0 0;
+    color: #dc0000;
 }
 
 /* -----------------------------------------------------------Hero image and cover text*/
 
 #hero-outer {
-  height: 600px; /* Remove: adjust the height value to make the container smaller */
-  width: 100%;
-  overflow: hidden;
-  margin-bottom: 30px;
-  position: relative;
+    height: 600px;
+    /* Remove: adjust the height value to make the container smaller */
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
 }
 
 #hero-image {
-  height: 600px; /* Remove: adjust the height value to make the image smaller */
-  width: auto;
-  display: block;
-  margin: 0 auto;
-  background: url("../images/hero-image.png") no-repeat center center;
-  margin-top: 100px;
-  animation-name: hero-zoom;
-  animation-duration: 5s;
-  animation-fill-mode: forwards;
-  background-size: contain; /* adjust the background-size property to fit the image within the container while maintaining its aspect ratio */
+    height: 600px;
+    /* Remove: adjust the height value to make the image smaller */
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    background: url("../images/hero-image.png") no-repeat center center;
+    margin-top: 100px;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    background-size: contain;
+    /* adjust the background-size property to fit the image within the container while maintaining its aspect ratio */
 }
 
 /* ----------------------------------------------------------- Creates the level of zoom for hero image */
 @keyframes hero-zoom {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.1);
-  }
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
 
 #cover-text h2 {
-  font-size: large;
-  color: #fff;
-  font-family: hind-madural, sans-serif;
-  letter-spacing: 1px;
-  text-align: center;
+    font-size: large;
+    color: #fff;
+    font-family: hind-madural, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
 
-  width: 125px;
-  height: 65px;
+    width: 125px;
+    height: 65px;
 
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-left: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
 
-  background-color: #000;
+    background-color: #000;
 
-  bottom: 30px;
-  right: 20%; /*Remove: Adjust the cover-text block image right or left here, the more & the more left it goes*/
+    bottom: 30px;
+    right: 20%;
+    /*Remove: Adjust the cover-text block image right or left here, the more & the more left it goes*/
 
-  position: absolute;
+    position: absolute;
 }
 
 /* -----------------------------------------------------------Introduction section*/
 
 #introduction {
-  height: fit-content; /* Adjust the height of the box container*/
-  background-color: white; /* Remove: design help*/
+    height: fit-content;
+    /* Adjust the height of the box container*/
+    background-color: white;
+    /* Remove: design help*/
 }
 
 /* -----------------------------------------------------------Icons: shopping & box gallery */
 
 .icon-container {
-  display: flex;
-  justify-content: space-between;
-  background-color: white; /* Remove: design help*/
-  margin: 25px 450px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /* Remove: design help*/
+    margin: 25px 450px;
 }
 
 .icon-container div {
-  margin: 25 35 px;
-  height: fit-content;
-  background-color: white; /* Remove: design help*/
+    margin: 25 35 px;
+    height: fit-content;
+    background-color: white;
+    /* Remove: design help*/
 }
 
 /* -----------------------------------------------------------Horizontal line */
 .horizontal-line {
-  border-top: 5px solid #1e1e1e; /* Can adjust line properties here e.g, thickness */
-  margin-top: 20px;
+    border-top: 5px solid #1e1e1e;
+    /* Can adjust line properties here e.g, thickness */
+    margin-top: 20px;
 }
 
 /* -----------------------------------------------------------What is a braai? */
 
 #braai {
-  height: fit-content; /* Adjust the height of the box container*/
-  background-color: white; /* Remove: design help*/
+    height: fit-content;
+    /* Adjust the height of the box container*/
+    background-color: white;
+    /* Remove: design help*/
 }
 
 /* NOTE: DELETE IF NOT USED!!!
@@ -236,250 +248,311 @@ header {
 */
 
 #braai-image {
-  height: fit-content;
-  width: 50%;
-  display: block;
-  margin: 0 auto;
-  background-color: white; /* Remove: design help*/
-  margin-left: 28%; /*Remove: move braai-image higher = right */
+    height: fit-content;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    /* Remove: design help*/
+    margin-left: 28%;
+    /*Remove: move braai-image higher = right */
 }
 
 #braai-sub-title {
-  margin-top: 25px;
+    margin-top: 25px;
 }
 
 #braai-paragraph {
-  margin-top: 25px;
+    margin-top: 25px;
 }
 
 /* -----------------------------------------------------------What is in the box?*/
 
 #box {
-  height: fit-content; /* Adjust the height of the box container*/
-  background-color: white; /* Remove: design help*/
+    height: fit-content;
+    /* Adjust the height of the box container*/
+    background-color: white;
+    /* Remove: design help*/
 }
 
 #box-title {
-  background-color: white; /* Remove: design help*/
-  height: fit-content;
+    background-color: white;
+    /* Remove: design help*/
+    height: fit-content;
 }
 
 #box-image {
-  height: fit-content;
-  width: 50%;
-  display: block;
-  margin: 0 auto;
-  background-color: white; /* Remove: design help*/
-  margin-left: 28%; /*Remove: move braai-image higher = right */
+    height: fit-content;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    /* Remove: design help*/
+    margin-left: 28%;
+    /*Remove: move braai-image higher = right */
 }
 
 #box-sub-title {
-  background-color: white; /* Remove: design help*/
-  height: fit-content;
-  margin-top: 25px;
+    background-color: white;
+    /* Remove: design help*/
+    height: fit-content;
+    margin-top: 25px;
 }
 
 #box-paragraph {
-  background-color: white; /* Remove: design help*/
-  height: fit-content;
-  margin-top: 25px;
+    background-color: white;
+    /* Remove: design help*/
+    height: fit-content;
+    margin-top: 25px;
 }
 
 /* -----------------------------------------------------------What is on the menu?*/
 
 #menu-section {
-  height: fit-content; /* Adjust the height of the box container*/
-  background-color: white; /* Remove: design help*/
+    height: fit-content;
+    /* Adjust the height of the box container*/
+    background-color: white;
+    /* Remove: design help*/
 }
 
 #menu-title {
-  background-color: white; /* Remove: design help*/
-  height: fit-content;
+    background-color: white;
+    /* Remove: design help*/
+    height: fit-content;
 }
 
 #menu-image {
-  height: fit-content;
-  width: 50%;
-  display: block;
-  margin: 0 auto;
-  background-color: white; /* Remove: design help*/
-  margin-left: 39%; /*Remove: move braai-image higher = right */
+    height: fit-content;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    /* Remove: design help*/
+    margin-left: 39%;
+    /*Remove: move braai-image higher = right */
 }
 
 #menu-sub-title {
-  background-color: white; /* Remove: design help*/
-  height: fit-content;
-  margin-top: 25px;
+    background-color: white;
+    /* Remove: design help*/
+    height: fit-content;
+    margin-top: 25px;
 }
 
 #menu-paragraph {
-  background-color: white; /* Remove: design help*/
-  height: fit-content;
-  margin-top: 25px;
+    background-color: white;
+    /* Remove: design help*/
+    height: fit-content;
+    margin-top: 25px;
 }
 
 /* -----------------------------------------------------------What are the box packages?*/
 
 #package {
-  height: fit-content; /* Adjust the height of the box container*/
-  background-color: white; /* Remove: design help*/
+    height: fit-content;
+    /* Adjust the height of the box container*/
+    background-color: white;
+    /* Remove: design help*/
 }
 
 #packages-title {
-  background-color: white; /* Remove: design help*/
-  height: fit-content;
+    background-color: white;
+    /* Remove: design help*/
+    height: fit-content;
 }
 
 #pricing {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .pricing-table {
-  border: 2px solid black;
-  background-color: black;
-  color: #fff;
-  padding: 30px;
-  padding-top: 2px;
-  text-align: center;
-  margin: 20px;
-  width: 25%;
+    border: 2px solid black;
+    background-color: black;
+    color: #fff;
+    padding: 30px;
+    padding-top: 2px;
+    text-align: center;
+    margin: 20px;
+    width: 25%;
 }
 
 .pricing-table h2 {
-  font-size: 2rem;
-  font-weight: normal;
-  margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 20px;
 }
 
 .price {
-  font-size: 3rem;
-  margin-bottom: 20px;
-  font-family: Lora, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: Lora, sans-serif;
 }
 
 ul {
-  list-style-type: none;
-  margin-bottom: 30px;
-  padding: 0;
+    list-style-type: none;
+    margin-bottom: 30px;
+    padding: 0;
 }
 
 ul li {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
 }
 
 .price-tag {
-  color: #dc0000;
-  font-size: xx-large;
-  font-family: Aboreto, sans-serif;
+    color: #dc0000;
+    font-size: xx-large;
+    font-family: Aboreto, sans-serif;
 }
 
 /*-----------------------------------------------------------Recipe of the month*/
 
 #recipe {
-  height: fit-content; /* Adjust the height of the box container*/
-  background-color: white; /* Remove: design help*/
+    height: fit-content;
+    /* Adjust the height of the box container*/
+    background-color: white;
+    /* Remove: design help*/
 }
 
 #recipe-title {
-  background-color: white; /* Remove: design help*/
-  height: fit-content;
+    background-color: white;
+    /* Remove: design help*/
+    height: fit-content;
 }
 
 #recipe-video {
-  left: 70%;
+    left: 70%;
 }
 
 /* -----------------------------------------------------------Contact information*/
 
 #contact-details {
-  height: fit-content; /* Adjust the height of the box container*/
-  background-color: white; /* Remove: design help*/
+    height: fit-content;
+    /* Adjust the height of the box container*/
+    background-color: white;
+    /* Remove: design help*/
 }
 
 #contact-details-title {
-  background-color: white; /* Remove: design help*/
-  height: fit-content;
+    background-color: white;
+    /* Remove: design help*/
+    height: fit-content;
 }
 
 .contact-sub-title {
-  background-color: white; /* Remove: design help*/
-  height: fit-content;
-  margin-top: 25px;
+    background-color: white;
+    /* Remove: design help*/
+    height: fit-content;
+    margin-top: 25px;
 }
 
 .contact-paragraph {
-  background-color: white; /* Remove: design help*/
-  height: fit-content;
-  margin-top: 25px;
-  text-align: left;
+    background-color: white;
+    /* Remove: design help*/
+    height: fit-content;
+    margin-top: 25px;
+    text-align: left;
 }
 
 /* -----------------------------------------------------------Footer*/
 
 footer {
-  height: fit-content;
-  background-color: #000;
+    height: fit-content;
+    background-color: #000;
 }
 
 .social-networks {
-  text-align: center;
+    text-align: center;
 }
 
-.social-networks > li {
-  display: inline;
+.social-networks>li {
+    display: inline;
 }
 
 .social-networks i {
-  font-size: 160%;
-  margin: 1%;
-  padding: 5%;
-  color: #ffffff;
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #ffffff;
 }
 
 /* gallery */
 
 #photos {
-  clear: both;
-  line-height: 0;
-  column-count: 4;
-  column-gap: 0;
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
 }
 
-#photos > img {
-  width: 100%;
+#photos>img {
+    width: 100%;
 }
 
 /* -----------------------------------------------------------Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
-    #club-ethos {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
+@media screen and (max-width: 360px) {
+
+ 
+    
+    #navbar {
+        width: 50%;
+        height: 5%;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        z-index: 1;
     }
 
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #left-about, #right-about {
-        width: 100%;
+    .logo {
         float: left;
-        padding: 0;
+        font-size: 80%;
+        color: #ffffff;
+        margin-left: 5px;
+        font-family: Aboreto, sans-serif;
     }
 
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
+    .menu li {
+        float: right;
+        margin-right: 30px;
+        list-style-type: none;
+        font-size: 50%;
     }
 
-    hr {
-        display: none;
+    .order-button {
+        background: #dc0000;
+        border: 1px solid #dc0000;
+        border-radius: 6px;
+        box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+        box-sizing: border-box;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+        font-size: 14px;
+        font-weight: 800;
+        line-height: 16px;
+        min-height: 30px;
+        outline: 0;
+        padding: 8px 10px;
+        text-align: center;
+        text-rendering: geometricprecision;
+        text-transform: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: middle;
     }
+    
+
+
+
+
+
+
+
+
+
 }
