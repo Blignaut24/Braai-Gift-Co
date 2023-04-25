@@ -12,7 +12,7 @@ body {
   color: #000;
 }
 
-/* headings and logo */
+/* -----------------------------------------------------------Headings and logo */
 
 h1 {
   font-family: Montserrat, sans-serif;
@@ -50,7 +50,7 @@ p {
   font-family: Aboreto, sans-serif;
 }
 
-/* navigation link */
+/*-----------------------------------------------------------Navigation link */
 
 .menu {
   font-size: 110%;
@@ -95,7 +95,7 @@ header {
   align-items: center;
 }
 
-/* navigation bar */
+/* -----------------------------------------------------------Navigation bar */
 #navbar {
   overflow: hidden;
   background-color: #333;
@@ -105,7 +105,7 @@ header {
   z-index: 1;
 }
 
-/* order icon button */
+/* -----------------------------------------------------------Order icon button */
 .order-button {
   background: #dc0000;
   border: 1px solid #dc0000;
@@ -131,7 +131,7 @@ header {
   vertical-align: middle;
 }
 
-/* order button hover*/
+/* -----------------------------------------------------------Order button hover*/
 .order-button:hover,
 .order-button:active {
   background-color: initial;
@@ -139,7 +139,7 @@ header {
   color: #dc0000;
 }
 
-/* hero image  and cover text*/
+/* -----------------------------------------------------------Hero image and cover text*/
 
 #hero-outer {
   height: 600px; /* Remove: adjust the height value to make the container smaller */
@@ -151,7 +151,7 @@ header {
 
 #hero-image {
   height: 600px; /* Remove: adjust the height value to make the image smaller */
-  width: 100%;
+  width: auto;
   display: block;
   margin: 0 auto;
   background: url("../images/hero-image.png") no-repeat center center;
@@ -162,7 +162,7 @@ header {
   background-size: contain; /* adjust the background-size property to fit the image within the container while maintaining its aspect ratio */
 }
 
-/* creates the level of zoom for hero image */
+/* ----------------------------------------------------------- Creates the level of zoom for hero image */
 @keyframes hero-zoom {
   from {
     transform: scale(1);
@@ -194,14 +194,14 @@ header {
   position: absolute;
 }
 
-/* introduction section*/
+/* -----------------------------------------------------------Introduction section*/
 
 #introduction {
   height: fit-content; /* Adjust the height of the box container*/
   background-color: white; /* Remove: design help*/
 }
 
-/* icons: shopping & box gallery */
+/* -----------------------------------------------------------Icons: shopping & box gallery */
 
 .icon-container {
   display: flex;
@@ -216,13 +216,13 @@ header {
   background-color: white; /* Remove: design help*/
 }
 
-/* horizontal line */
+/* -----------------------------------------------------------Horizontal line */
 .horizontal-line {
   border-top: 5px solid #1e1e1e; /* Can adjust line properties here e.g, thickness */
   margin-top: 20px;
 }
 
-/*What is a braai? - Section */
+/* -----------------------------------------------------------What is a braai? */
 
 #braai {
   height: fit-content; /* Adjust the height of the box container*/
@@ -252,7 +252,7 @@ header {
   margin-top: 25px;
 }
 
-/*what is in the box?- section*/
+/* -----------------------------------------------------------What is in the box?*/
 
 #box {
   height: fit-content; /* Adjust the height of the box container*/
@@ -285,7 +285,7 @@ header {
   margin-top: 25px;
 }
 
-/*what is on the menu*/
+/* -----------------------------------------------------------What is on the menu?*/
 
 #menu-section {
   height: fit-content; /* Adjust the height of the box container*/
@@ -318,7 +318,7 @@ header {
   margin-top: 25px;
 }
 
-/* what are the box packages*/
+/* -----------------------------------------------------------What are the box packages?*/
 
 #package {
   height: fit-content; /* Adjust the height of the box container*/
@@ -375,7 +375,7 @@ ul li {
   font-family: Aboreto, sans-serif;
 }
 
-/*Recipe of the Month*/
+/*-----------------------------------------------------------Recipe of the month*/
 
 #recipe {
   height: fit-content; /* Adjust the height of the box container*/
@@ -391,7 +391,7 @@ ul li {
   left: 70%;
 }
 
-/*contact information*/
+/* -----------------------------------------------------------Contact information*/
 
 #contact-details {
   height: fit-content; /* Adjust the height of the box container*/
@@ -416,7 +416,7 @@ ul li {
   text-align: left;
 }
 
-/*footer*/
+/* -----------------------------------------------------------Footer*/
 
 footer {
   height: fit-content;
@@ -449,4 +449,37 @@ footer {
 
 #photos > img {
   width: 100%;
+}
+
+/* -----------------------------------------------------------Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #club-ethos {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
 }
