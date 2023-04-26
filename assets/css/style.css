@@ -397,7 +397,6 @@ ul {
 
 ul li {
     font-size: 1.2rem;
-    margin-bottom: 10px;
 }
 
 .price-tag {
@@ -497,13 +496,23 @@ footer {
 
     @media screen and (max-width: 360px) {
 
-        #navbar {
-            width: 50%;
-            height: 6%;
-            overflow: hidden;
-            position: fixed;
-            top: 0;
-            z-index: 1;
+        /*Headings and logo*/
+        h1 {
+            font-size: x-large;
+            margin: auto;
+
+        }
+
+        h2 {
+            font-size: medium;
+            width: 80%;
+
+        }
+
+        p {
+            font-size: small;
+            width: 65%;
+
         }
 
         .logo {
@@ -514,12 +523,22 @@ footer {
             font-family: Aboreto, sans-serif;
         }
 
+        /*Navigation link*/
+
+        .menu,
+        .logo {
+            line-height: 200px;
+            /*Tutor: Navbar tabs alignment issues*/
+        }
+
         .menu li {
             float: right;
             margin-right: 30px;
             list-style-type: none;
             font-size: 65%;
         }
+
+        /*Order icon button*/
 
         .order-button {
             background: #dc0000;
@@ -546,23 +565,21 @@ footer {
             vertical-align: middle;
         }
 
-        .icon-container {
-            display: flex;
-            flex-direction:row;
-            align-items: center;
-            justify-content: space-evenly;
-            margin: 15px 0;
+        /*Navigation bar*/
+
+        #navbar {
+            overflow: hidden;
+            background-color: #333;
+            position: fixed;
+            top: 0;
+            width: 50%;
+            height: 6%;
+            z-index: 1;
         }
 
-        .icon-container div {
-            margin: 10px 0;
-        }
 
-        .horizontal-line {
-            border-top: 3px solid #1e1e1e;
-            margin-top: 10px;
-        }
 
+        /*Hero image and cover text*/
         #hero-outer {
             height: 300px;
             width: 100%;
@@ -584,6 +601,7 @@ footer {
             background-size: contain;
         }
 
+        /*Creates the level of zoom for hero image*/
         @keyframes hero-zoom {
             from {
                 transform: scale(1);
@@ -604,37 +622,79 @@ footer {
             width: 105px;
             height: 25%;
 
-            padding-top: 5px;
-            padding-bottom: dpx;
+            padding-bottom: 1px;
             padding-left: 1px;
 
             background-color: #000;
 
             bottom: 15px;
-            right: 10%;
+            right: 2%;
             /*Remove: Adjust the cover-text block image right or left here, the more & the more left it goes*/
             position: absolute;
         }
 
-            h1 {
-                font-size: large;
-                margin: auto;
-                
-            }
-            h2 {
-                font-size: medium;
-                width: 80%;
-                
-            }
-            p {
-                font-size: small;
-                width: 65%;
-                
-            }
+        /*Icons: shopping & box gallery*/
+
+        .icon-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 15px 0;
+        }
+
+        .icon-container div {
+            margin: 10px 0;
+        }
+
+        /*Horizontal line*/
+
+        .horizontal-line {
+            border-top: 3px solid #1e1e1e;
+            margin-top: 10px;
+        }
+
+        /* What is a braai?*/
+
+        #braai {
+            height: fit-content;
+            /* Adjust the height of the box container*/
+            background-color: white;
+            /* Remove: design help*/
+            margin: 0 auto;
+        }
+
+        #braai-image {
+            width: 20%;
+            height: 20%;
+            display: block;
+          }
+
+        /*What are the box packages?*/
+        #pricing {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        .pricing-table {
+            border: 2px solid black;
+            background-color: black;
+            color: #fff;
+            padding: 30px;
+            padding-top: 0px;
+            text-align: center;
+            margin: 20px;
+            margin-left: 15%;
+            width: 55%;
+        }
+        
+       
+
+
     }
 
     /* For medium screens size from 1366px wide and down */
-    @media screen and (max-width: 1366px) {}
+
 
     /* For medium screens size from 1366px wide and down */
-    @media screen and (max-width: 1920px) {}
