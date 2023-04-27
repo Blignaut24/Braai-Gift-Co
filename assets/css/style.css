@@ -152,29 +152,26 @@ header {
 
 #hero-image {
     height: 600px;
-    /* Remove: adjust the height value to make the image smaller */
-
+    /* Adjust the height value to resize the image */
     object-fit: contain;
     display: block;
-    ;
-    
     background: url("../images/hero-image.png") no-repeat center center;
-    animation-name: hero-zoom;
+    transform: scale(1.0);
+    animation-name: hero-zoom-out;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    /* size property to fit the image within the container while maintaining its aspect ratio */
 }
 
 /* ----------------------------------------------------------- Creates the level of zoom for hero image */
-@keyframes hero-zoom {
+@keyframes hero-zoom-out {
     from {
-        transform: scale(1);
+      transform: scale(2.1);
     }
-
     to {
-        transform: scale(1.1);
+      transform: scale(1);
     }
-}
+  }
+
 
 #cover-text h2 {
     font-size: large;
@@ -193,7 +190,7 @@ header {
     background-color: #000;
 
     bottom: 30px;
-    right: 20%;
+    right: 10%;
     /*Remove: Adjust the cover-text block image right or left here, the more & the more left it goes*/
 
     position: absolute;
@@ -254,27 +251,6 @@ header {
     display: flex;
     justify-content: center;
     text-align: center;
-    
-    /* display: block;
-    margin: 0 auto;
-    text-align: center;
-    background-color: pink; */
-    /* height: fit-content;
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-    background-color: white; */
-    /* Remove: design help*/
-    /* margin-left: 28%; */
-    /*Remove: move braai-image higher = right */
-
-    /* Resizing Formula
-    overflow: hidden;
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
-    margin: 0 auto;
-    */
 }
 
 #braai-sub-title {
@@ -301,13 +277,10 @@ header {
 }
 
 #box-image {
-    /* height: fit-content;
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-    background-color: white;
-    margin-left: 28%; */
-    overflow: hidden;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 #box-sub-title {
@@ -385,14 +358,13 @@ header {
 }
 
 .pricing-table {
-    border: 2px solid black;
+    border: 1px solid black;
     background-color: black;
     color: #fff;
-    padding: 30px;
-    padding-top: 2px;
+    padding: 1%;
     text-align: center;
-    margin: 20px;
-    width: 25%;
+    margin: 2%;
+    width: 23%;
 }
 
 .pricing-table h2 {
@@ -509,20 +481,7 @@ footer {
 
 /* -----------------------------------------------------------Media queries */
 
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
 
-@media (min-width: 1281px) {
-  
-    /*Headings and logo*/
-    h1 {
-        font-size: x-large;
-        margin: auto;
-    }
-    
-  }
   
   
   
