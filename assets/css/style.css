@@ -153,16 +153,16 @@ header {
 #hero-image {
     height: 600px;
     /* Remove: adjust the height value to make the image smaller */
-    width: auto;
+
+    object-fit: contain;
     display: block;
-    margin: 0 auto;
+    ;
+    
     background: url("../images/hero-image.png") no-repeat center center;
-    margin-top: 100px;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    background-size: contain;
-    /* adjust the background-size property to fit the image within the container while maintaining its aspect ratio */
+    /* size property to fit the image within the container while maintaining its aspect ratio */
 }
 
 /* ----------------------------------------------------------- Creates the level of zoom for hero image */
@@ -239,6 +239,8 @@ header {
     /* Adjust the height of the box container*/
     background-color: white;
     /* Remove: design help*/
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 
 /* NOTE: DELETE IF NOT USED!!!
@@ -248,14 +250,31 @@ header {
 */
 
 #braai-image {
-    height: fit-content;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    /* display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: pink; */
+    /* height: fit-content;
     width: 50%;
     display: block;
     margin: 0 auto;
-    background-color: white;
+    background-color: white; */
     /* Remove: design help*/
-    margin-left: 28%;
+    /* margin-left: 28%; */
     /*Remove: move braai-image higher = right */
+
+    /* Resizing Formula
+    overflow: hidden;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    margin: 0 auto;
+    */
 }
 
 #braai-sub-title {
@@ -282,14 +301,13 @@ header {
 }
 
 #box-image {
-    height: fit-content;
+    /* height: fit-content;
     width: 50%;
     display: block;
     margin: 0 auto;
     background-color: white;
-    /* Remove: design help*/
-    margin-left: 28%;
-    /*Remove: move braai-image higher = right */
+    margin-left: 28%; */
+    overflow: hidden;
 }
 
 #box-sub-title {
@@ -491,210 +509,80 @@ footer {
 
 /* -----------------------------------------------------------Media queries */
 
-/* For small screens size from 360px wide and down */
-@media screen and (max-width: 360px) {
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
 
-    @media screen and (max-width: 360px) {
-
-        /*Headings and logo*/
-        h1 {
-            font-size: x-large;
-            margin: auto;
-
-        }
-
-        h2 {
-            font-size: medium;
-            width: 80%;
-
-        }
-
-        p {
-            font-size: small;
-            width: 65%;
-
-        }
-
-        .logo {
-            float: left;
-            font-size: 95%;
-            color: #ffffff;
-            margin-left: 5px;
-            font-family: Aboreto, sans-serif;
-        }
-
-        /*Navigation link*/
-
-        .menu,
-        .logo {
-            line-height: 200px;
-            /*Tutor: Navbar tabs alignment issues*/
-        }
-
-        .menu li {
-            float: right;
-            margin-right: 30px;
-            list-style-type: none;
-            font-size: 65%;
-        }
-
-        /*Order icon button*/
-
-        .order-button {
-            background: #dc0000;
-            border: 1px solid #dc0000;
-            border-radius: 6px;
-            box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
-            box-sizing: border-box;
-            color: #ffffff;
-            cursor: pointer;
-            display: inline-block;
-            font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
-            font-size: 14px;
-            font-weight: 800;
-            line-height: 16px;
-            min-height: 30px;
-            outline: 0;
-            padding: 8px 10px;
-            text-align: center;
-            text-rendering: geometricprecision;
-            text-transform: none;
-            user-select: none;
-            -webkit-user-select: none;
-            touch-action: manipulation;
-            vertical-align: middle;
-        }
-
-        /*Navigation bar*/
-
-        #navbar {
-            overflow: hidden;
-            background-color: #333;
-            position: fixed;
-            top: 0;
-            width: 50%;
-            height: 6%;
-            z-index: 1;
-        }
-
-
-
-        /*Hero image and cover text*/
-        #hero-outer {
-            height: 300px;
-            width: 100%;
-            overflow: hidden;
-            margin-bottom: 15px;
-            position: relative;
-        }
-
-        #hero-image {
-            height: 300px;
-            width: auto;
-            display: block;
-            margin: 0 auto;
-            background: url("../images/hero-image.png") no-repeat center center;
-            margin-top: 10px;
-            animation-name: hero-zoom;
-            animation-duration: 5s;
-            animation-fill-mode: forwards;
-            background-size: contain;
-        }
-
-        /*Creates the level of zoom for hero image*/
-        @keyframes hero-zoom {
-            from {
-                transform: scale(1);
-            }
-
-            to {
-                transform: scale(1.1);
-            }
-        }
-
-        #cover-text h2 {
-            font-size: medium;
-            color: #fff;
-            font-family: hind-madural, sans-serif;
-            letter-spacing: 0.5px;
-            text-align: center;
-
-            width: 105px;
-            height: 25%;
-
-            padding-bottom: 1px;
-            padding-left: 1px;
-
-            background-color: #000;
-
-            bottom: 15px;
-            right: 2%;
-            /*Remove: Adjust the cover-text block image right or left here, the more & the more left it goes*/
-            position: absolute;
-        }
-
-        /*Icons: shopping & box gallery*/
-
-        .icon-container {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-evenly;
-            margin: 15px 0;
-        }
-
-        .icon-container div {
-            margin: 10px 0;
-        }
-
-        /*Horizontal line*/
-
-        .horizontal-line {
-            border-top: 3px solid #1e1e1e;
-            margin-top: 10px;
-        }
-
-        /* What is a braai?*/
-
-        #braai {
-            height: fit-content;
-            /* Adjust the height of the box container*/
-            background-color: white;
-            /* Remove: design help*/
-            margin: 0 auto;
-        }
-
-        #braai-image {
-            width: 20%;
-            height: 20%;
-            display: block;
-          }
-
-        /*What are the box packages?*/
-        #pricing {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-        }
-        
-        .pricing-table {
-            border: 2px solid black;
-            background-color: black;
-            color: #fff;
-            padding: 30px;
-            padding-top: 0px;
-            text-align: center;
-            margin: 20px;
-            margin-left: 15%;
-            width: 55%;
-        }
-        
-       
-
-
+@media (min-width: 1281px) {
+  
+    /*Headings and logo*/
+    h1 {
+        font-size: x-large;
+        margin: auto;
     }
-
-    /* For medium screens size from 1366px wide and down */
-
-
-    /* For medium screens size from 1366px wide and down */
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
