@@ -247,10 +247,13 @@ header {
 */
 
 #braai-image {
-    height: 10%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    height: fit-content;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    /* Remove: design help*/
+   
 }
 
 #braai-sub-title {
@@ -480,29 +483,6 @@ footer {
 }
 
 /* -----------------------------------------------------------Media queries */
-
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px to 1280px
-  */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    
-    /* CSS */
-    
-  }
   
   /* 
     ##Device = Tablets, Ipads (portrait)
@@ -510,9 +490,72 @@ footer {
   */
   
   @media (min-width: 768px) and (max-width: 1024px) {
+   .icon-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 15px 0;
+        }
+
+        .icon-container div {
+            margin: 10px 0;
+        }
+        
+    /* What is a Braai? */
+    #braai {
+        height: fit-content;
+        /* Adjust the height of the box container*/
+        background-color: white;
+        /* Remove: design help*/
+    }
+
+    #braai-image {
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /*What on the Menu?*/
+
+    #menu {
+        height: fit-content;
+        /* Adjust the height of the box container*/
+        background-color: white;
+        /* Remove: design help*/
+    }
+
+    #menu-image {
+        height: fit-content;
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        background-color: white;
+        /* Remove: design help*/
+        margin-left: 30%;
+    }
+
+    /*What are the Box Packages?*/
+    #pricing {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
     
-    /* CSS */
-    
+    .pricing-table {
+        border: 2px solid black;
+        background-color: black;
+        color: #fff;
+        padding: 30px;
+        padding-top: 0px;
+        text-align: center;
+        margin: 20px;
+        margin-left: 15%;
+        width: 55%;
+    }
+
+   
   }
   
   /* 
