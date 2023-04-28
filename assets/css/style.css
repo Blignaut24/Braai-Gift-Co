@@ -533,7 +533,7 @@ footer {
         margin: 0 auto;
         background-color: white;
         /* Remove: design help*/
-        margin-left: 30%;
+        margin-left: 34%;
     }
 
     /*What are the Box Packages?*/
@@ -564,21 +564,12 @@ footer {
   @media (min-width: 481px) and (max-width: 767px) {
 
     /*Headings and Logo*/
-    .logo {
-        font-size: 50%;
-        margin-left: 10px;
-    }
-    * {
-        font-size: 5%;
-    }
-
-    /*Navigation link*/
-    
    
-
+    /*Navigation link*/
+   
     /*Navigation bar*/
     
-
+    /*Introduction section*/
 
     /*Order icon button
 
@@ -588,17 +579,45 @@ footer {
 
     Creates the level of zoom for hero image
 
-    Introduction section
+  
 
-    Icons: shopping & box gallery
+    /*Icons: shopping & box gallery*/
+    .icon-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 15px 0;
+    }
 
-    Horizontal line
+    .icon-container div {
+        margin: 10px 0;
+    }
+    
 
-    What is a braai?
+    /*Horizontal line*/
+
+    /*What is a braai?*/
+     #braai {
+        height: fit-content;
+        /* Adjust the height of the box container*/
+        background-color: white;
+        /* Remove: design help*/
+    }
+
+    #braai-image {
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 
     What is in the box?
 
-    What is on the menu?
+    /*What is on the menu?*/
+    #menu-image{
+      margin-left: 28pt;
+    }
 
     What are the box packages?
 
