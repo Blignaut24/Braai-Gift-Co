@@ -477,6 +477,27 @@ footer {
 
 /* -----------------------------------------------------------Media queries */
 
+/* ##Device = Laptops, Desktops
+   ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+  .icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px 0;
+  }
+
+  .icon-container div {
+    margin: 10px 0;
+  }
+  
+}
+
 /* ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
   */
@@ -591,6 +612,99 @@ footer {
 }
 
 /* 
+  ##Device = Tablets, Ipads (portrait) 
+*/
+
+#pricing {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pricing-table {
+  border: 2px solid black;
+  background-color: black;
+  color: #fff;
+  padding: 30px;
+  padding-top: 0px;
+  text-align: center;
+  margin: 20px;
+  margin-left: 18%;
+  width: 55%;
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  h2 {
+    width: 80%;
+  }
+
+  p {
+    width: 50%;
+  }
+
+  #braai {
+    height: fit-content;
+    /* Adjust the height of the box container*/
+    background-color: white;
+    /* Remove: design help*/
+}
+
+#braai-image {
+height: 10%;
+width: 200px;
+height: 200px;
+object-fit: cover;
+display: flex;
+justify-content: center;
+text-align: center;
+margin-left: 37%;
+}
+
+
+
+  #box-image{
+    margin-left: 40%;
+    
+  }
+
+  /*What on the Menu?*/
+
+  #menu-image {
+    margin-left: 25%;
+  }
+
+   /*What are the Box Packages?*/  /*_______________FIx Here______*/
+   #pricing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .pricing-table {
+    border: 2px solid black;
+    background-color: black;
+    color: #fff;
+    padding: 30px;
+    padding-top: 0px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 18%;
+    width: 55%;
+  }
+
+  }
+
+  
+}
+
+/* 
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
@@ -605,9 +719,24 @@ footer {
     width: 50%;
   }
 
-  #braai-image {
-    margin-left: 40%;
-  }
+  #braai {
+    height: fit-content;
+    /* Adjust the height of the box container*/
+    background-color: white;
+    /* Remove: design help*/
+}
+
+#braai-image {
+height: 10%;
+width: 200px;
+height: 200px;
+object-fit: cover;
+display: flex;
+justify-content: center;
+text-align: center;
+margin-left: 37%;
+}
+
 
 
   #box-image{
@@ -621,16 +750,23 @@ footer {
     margin-left: 25%;
   }
 
-   /*What are the Box Packages?*/
+   /*What are the Box Packages?*/  /*_______________FIx Here______*/
    #pricing {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
 
-  .pricing-table{
-    margin-left: 34%;
-    width: 25%;
+  .pricing-table {
+    border: 2px solid black;
+    background-color: black;
+    color: #fff;
+    padding: 30px;
+    padding-top: 0px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 18%;
+    width: 55%;
   }
 
   }
