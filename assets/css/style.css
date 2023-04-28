@@ -651,18 +651,13 @@ footer {
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        margin: 15px 0;
+        margin: 15px 0
       }
     
       .icon-container div {
         margin: 10px 0;
       }
       
-    div#hero-image{  /* Tutor Help: Resize the heigh of the image without cutting of any picture details*/
-        width: 100%;   
-        heigth: 250px;
-    }
-
     h2{
         width: 75%;
     }
@@ -749,6 +744,14 @@ footer {
     margin: 20px;
     margin-left: 18%;
     width: 55%;
+  }
+
+  #hero-outer{
+    height:360px;
+  }
+
+  #cover-text h2{
+    right: 70%;
   }
     
   }
