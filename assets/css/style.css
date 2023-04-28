@@ -551,7 +551,7 @@ footer {
         padding-top: 0px;
         text-align: center;
         margin: 20px;
-        margin-left: 15%;
+        margin-left: 18%;
         width: 55%;
     }
   }
@@ -562,26 +562,6 @@ footer {
   */
   
   @media (min-width: 481px) and (max-width: 767px) {
-
-    /*Headings and Logo*/
-   
-    /*Navigation link*/
-   
-    /*Navigation bar*/
-    
-    /*Introduction section*/
-
-    /*Order icon button
-
-    Order button hover
-
-    Hero image and cover text
-
-    Creates the level of zoom for hero image
-
-  
-
-    /*Icons: shopping & box gallery*/
     .icon-container {
         display: flex;
         flex-direction: row;
@@ -594,15 +574,12 @@ footer {
         margin: 10px 0;
     }
     
-
-    /*Horizontal line*/
-
-    /*What is a braai?*/
-     #braai {
+    /* What is a Braai? */
+    #braai {
         height: fit-content;
-        /* Adjust the height of the box container*/
+    /* Adjust the height of the box container*/
         background-color: white;
-        /* Remove: design help*/
+    /* Remove: design help*/
     }
 
     #braai-image {
@@ -612,32 +589,146 @@ footer {
         text-align: center;
     }
 
-    What is in the box?
+    /*What on the Menu?*/
 
-    /*What is on the menu?*/
-    #menu-image{
-      margin-left: 28pt;
+    #menu {
+        height: fit-content;
+        /* Adjust the height of the box container*/
+        background-color: white;
+        /* Remove: design help*/
     }
 
-    What are the box packages?
+    #menu-image {
+        height: fit-content;
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        background-color: white;
+        /* Remove: design help*/
+        margin-left: 28%;
+    }
 
-    Recipe of the month
-
-    Contact information
-
-    Footer
-    */
-
+    /*What are the Box Packages?*/
+    #pricing {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .pricing-table {
+        border: 2px solid black;
+        background-color: black;
+        color: #fff;
+        padding: 30px;
+        padding-top: 0px;
+        text-align: center;
+        margin: 20px;
+        margin-left: 18%;
+        width: 55%;
+    }
 }
 
-    
-
-  
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
   
   @media (min-width: 320px) and (max-width: 480px) {
+
+    h2 {
+        width: 75%;
+    }
+
+    p {
+        width: 50%;
+    }
+
+    .logo{
+        font-size: 115%;
+    }
+    .icon-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 15px 0;
+    }
+
+    .icon-container div {
+        margin: 10px 0;
+    }
     
-    /* CSS */
+    /* What is a Braai? */
+    #braai {
+        height: fit-content;
+    /* Adjust the height of the box container*/
+        background-color: white;
+    /* Remove: design help*/
+    }
+
+    #braai-image {
+        height: 10%;
+        width: 200px; 
+        height: 200px;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /*What is in the Box*/
+    #box-image{
+        height: 10%;
+        width: 200px; 
+        height: 200px;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    /*What on the Menu?*/
+
+    #menu {
+        height: fit-content;
+        /* Adjust the height of the box container*/
+        background-color: white;
+        /* Remove: design help*/
+    }
+
+    #menu-image {
+        height: fit-content;
+        width:  50px; 
+        display: block;
+        margin: 0 auto;
+        background-color: white;
+        /* Remove: design help*/
+        margin-left: 15%;
+    }
+
+    /*What are the Box Packages?*/
+    #pricing {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .pricing-table {
+        border: 2px solid black;
+        background-color: black;
+        color: #fff;
+        padding: 30px;
+        padding-top: 0px;
+        text-align: center;
+        margin: 20px;
+        margin-left: 18%;
+        width: 55%;
+    }
+
+    li.price-tag{
+        padding-bottom: 20px;
+
+    }
+    
+  }
