@@ -642,7 +642,114 @@ footer {
 
 @media (min-width: 481px) and (max-width: 767px) {
   
+    .logo {
+        font-size: 115%;
+      }
+
+      .icon-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 15px 0;
+      }
     
+      .icon-container div {
+        margin: 10px 0;
+      }
+      
+    div#hero-image{  /* Tutor Help: Resize the heigh of the image without cutting of any picture details*/
+        width: 100%;   
+        heigth: 250px;
+    }
+
+    h2{
+        width: 75%;
+    }
+
+    p{
+        width: 65%;
+    }
+
+    .icon-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 15px 0;
+      }
+    
+      .icon-container div {
+        margin: 10px 0;
+      }
+
+       /* What is a Braai? */
+    #braai {
+        height: fit-content;
+        /* Adjust the height of the box container*/
+        background-color: white;
+        /* Remove: design help*/
+    }
+
+  #braai-image {
+    height: 10%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 37%;
+  }
+
+  /*What is in the Box*/
+  #box-image {
+    height: 10%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /*What on the Menu?*/
+
+  #menu {
+    height: fit-content;
+    /* Adjust the height of the box container*/
+    background-color: white;
+    /* Remove: design help*/
+  }
+
+  #menu-image {
+    height: fit-content;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    /* Remove: design help*/
+    margin-left: 30%;
+  }
+
+  #pricing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .pricing-table {
+    border: 2px solid black;
+    background-color: black;
+    color: #fff;
+    padding: 30px;
+    padding-top: 0px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 18%;
+    width: 55%;
+  }
     
   }
 
