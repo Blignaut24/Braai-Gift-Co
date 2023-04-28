@@ -554,19 +554,6 @@ footer {
         margin-left: 15%;
         width: 55%;
     }
-
-   
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
-    /* CSS */
-    
   }
   
   /* 
@@ -575,10 +562,57 @@ footer {
   */
   
   @media (min-width: 481px) and (max-width: 767px) {
+
+    /*Headings and Logo*/
+    .logo {
+        font-size: 50%;
+        margin-left: 10px;
+    }
+    * {
+        font-size: 5%;
+    }
+
+    /*Navigation link*/
     
-    /* CSS */
+   
+
+    /*Navigation bar*/
     
-  }
+
+
+    /*Order icon button
+
+    Order button hover
+
+    Hero image and cover text
+
+    Creates the level of zoom for hero image
+
+    Introduction section
+
+    Icons: shopping & box gallery
+
+    Horizontal line
+
+    What is a braai?
+
+    What is in the box?
+
+    What is on the menu?
+
+    What are the box packages?
+
+    Recipe of the month
+
+    Contact information
+
+    Footer
+    */
+
+}
+
+    
+
   
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
