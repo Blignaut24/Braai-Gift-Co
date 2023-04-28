@@ -756,20 +756,136 @@ footer {
     
   }
 
+  /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  h2 {
+    width: 75%;
+  }
+
+  p {
+    width: 50%;
+  }
+
+  .logo {
+    font-size: 115%;
+    margin-left: 15px;
+  }
+
+  .menu{
+    letter-spacing: -0.9px;
+  }
+
+  menu li{
+    font-size: 35%;
+  }
+
+  #cover-text h2{
+    right: 70%;
+  }
+
+  #braai {
+    height: fit-content;
+    /* Adjust the height of the box container*/
+    background-color: white;
+    /* Remove: design help*/
+}
+
+#braai-image {
+  height: 10%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 18%;
+  }
+
+  #box-image {
+    height: fit-content;
+    /* Adjust the height of the box container*/
+    background-color: white;
+    /* Remove: design help*/
+  }
+
+ #box-image{
+  height: 10%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 18%;
+
+ }  
 
 
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 15px 0;
+}
+
+.icon-container div {
+  margin: 10px 0;
+}
+
+#pricing {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pricing-table {
+  border: 2px solid black;
+  background-color: black;
+  color: #fff;
+  padding: 30px;
+  padding-top: 0px;
+  text-align: center;
+  margin: 20px;
+  margin-left: 13%;
+  width: 55%;
+}
+
+.logo {
+  float: left;
+  font-size: 60%;
+  color: #ffffff;
+  margin-left: 5px;
+  font-family: Aboreto, sans-serif;
+  letter-spacing: 0.4px;
+
+}
+
+/*Navigation link*/
 
 
+.menu li {
+  float: right;
+  margin-right: 30px;
+  list-style-type: none;
+  font-size: 65%;
+}
 
+#photos {
+  clear: both;
+  line-height: 0;
+  column-count: 1;
+  column-gap: 0;
+}
 
+.order-button{
+  font-size: 13px;
+}
 
-
-
-
-
-
-
-
-
-
-/
+    
+}
