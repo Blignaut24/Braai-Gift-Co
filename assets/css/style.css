@@ -167,6 +167,7 @@ header {
   from {
     transform: scale(2.1);
   }
+
   to {
     transform: scale(1);
   }
@@ -247,10 +248,10 @@ header {
 
 
 #braai-image {
-    height: 10%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 #braai-sub-title {
@@ -313,10 +314,10 @@ header {
 }
 
 #menu-image {
-    height: 10%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 #menu-sub-title {
@@ -410,6 +411,10 @@ ul li {
   left: 70%;
 }
 
+iframe {
+  border: none;
+}
+
 /* -----------------------------------------------------------Contact information*/
 
 #contact-details {
@@ -451,7 +456,7 @@ footer {
   text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
   display: inline;
 }
 
@@ -471,7 +476,7 @@ footer {
   column-gap: 0;
 }
 
-#photos > img {
+#photos>img {
   width: 100%;
 }
 
@@ -482,8 +487,8 @@ footer {
 */
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
-  
+
+
   .icon-container {
     display: flex;
     flex-direction: row;
@@ -495,36 +500,36 @@ footer {
   .icon-container div {
     margin: 10px 0;
   }
-  
+
 }
 
 /* ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
   */
 
-@media (min-width: 768px) and (max-width: 1024px) {  
+@media (min-width: 768px) and (max-width: 1024px) {
 
-    #cover-text h2 {
-        font-size: large;
-        color: #fff;
-        font-family: hind-madural, sans-serif;
-        letter-spacing: 1px;
-        text-align: center;
-        width: 125px;
-        height: 65px;
-        padding-top: 25px;
-        padding-bottom: 25px;
-        padding-left: 5px;
-        background-color: #000;
-        bottom: 30px;
-        right: 1%;
-        /*Remove: Adjust the cover-text block image right or left here, the more & the more left it goes*/
-      
-        position: absolute;
-      }
-  
-  
-    .icon-container {
+  #cover-text h2 {
+    font-size: large;
+    color: #fff;
+    font-family: hind-madural, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 125px;
+    height: 65px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 5px;
+    background-color: #000;
+    bottom: 30px;
+    right: 1%;
+    /*Remove: Adjust the cover-text block image right or left here, the more & the more left it goes*/
+
+    position: absolute;
+  }
+
+
+  .icon-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -550,13 +555,13 @@ footer {
     text-align: center;
   }
 
-  /*What is in the box?*/  /
-#box{
+  /*What is in the box?*/
+  / #box {
     height: fit-content;
     /* Adjust the height of the box container*/
-}
+  }
 
-  #box-image{
+  #box-image {
     height: 10%;
     width: 200px;
     height: 200px;
@@ -564,9 +569,9 @@ footer {
     justify-content: center;
     text-align: center;
     margin-left: 35%;
-    
+
   }
-    
+
 
   /*What on the Menu?*/
 
@@ -640,7 +645,7 @@ footer {
 
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
+
   h2 {
     width: 80%;
   }
@@ -654,24 +659,24 @@ footer {
     /* Adjust the height of the box container*/
     background-color: white;
     /* Remove: design help*/
-}
+  }
 
-#braai-image {
-height: 10%;
-width: 200px;
-height: 200px;
-object-fit: cover;
-display: flex;
-justify-content: center;
-text-align: center;
-margin-left: 37%;
-}
+  #braai-image {
+    height: 10%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 37%;
+  }
 
 
 
-  #box-image{
+  #box-image {
     margin-left: 40%;
-    
+
   }
 
   /*What on the Menu?*/
@@ -680,8 +685,9 @@ margin-left: 37%;
     margin-left: 25%;
   }
 
-   /*What are the Box Packages?*/  /*_______________FIx Here______*/
-   #pricing {
+  /*What are the Box Packages?*/
+  /*_______________FIx Here______*/
+  #pricing {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -699,9 +705,9 @@ margin-left: 37%;
     width: 55%;
   }
 
-  }
+}
 
-  
+
 }
 
 /* 
@@ -710,7 +716,7 @@ margin-left: 37%;
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
+
   h2 {
     width: 80%;
   }
@@ -724,24 +730,24 @@ margin-left: 37%;
     /* Adjust the height of the box container*/
     background-color: white;
     /* Remove: design help*/
-}
+  }
 
-#braai-image {
-height: 10%;
-width: 200px;
-height: 200px;
-object-fit: cover;
-display: flex;
-justify-content: center;
-text-align: center;
-margin-left: 37%;
-}
+  #braai-image {
+    height: 10%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 37%;
+  }
 
 
 
-  #box-image{
+  #box-image {
     margin-left: 40%;
-    
+
   }
 
   /*What on the Menu?*/
@@ -750,8 +756,9 @@ margin-left: 37%;
     margin-left: 25%;
   }
 
-   /*What are the Box Packages?*/  /*_______________FIx Here______*/
-   #pricing {
+  /*What are the Box Packages?*/
+  /*_______________FIx Here______*/
+  #pricing {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -769,58 +776,58 @@ margin-left: 37%;
     width: 55%;
   }
 
-  }
+}
 
-  /* 
+/* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
-    .logo {
-        font-size: 115%;
-      }
 
-      .icon-container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        margin: 15px 0
-      }
-    
-      .icon-container div {
-        margin: 10px 0;
-      }
-      
-    h2{
-        width: 75%;
-    }
+  .logo {
+    font-size: 115%;
+  }
 
-    p{
-        width: 65%;
-    }
+  .icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px 0
+  }
 
-    .icon-container {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-evenly;
-        margin: 15px 0;
-      }
-    
-      .icon-container div {
-        margin: 10px 0;
-      }
+  .icon-container div {
+    margin: 10px 0;
+  }
 
-       /* What is a Braai? */
-    #braai {
-        height: fit-content;
-        /* Adjust the height of the box container*/
-        background-color: white;
-        /* Remove: design help*/
-    }
+  h2 {
+    width: 75%;
+  }
+
+  p {
+    width: 65%;
+  }
+
+  .icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px 0;
+  }
+
+  .icon-container div {
+    margin: 10px 0;
+  }
+
+  /* What is a Braai? */
+  #braai {
+    height: fit-content;
+    /* Adjust the height of the box container*/
+    background-color: white;
+    /* Remove: design help*/
+  }
 
   #braai-image {
     height: 10%;
@@ -882,23 +889,23 @@ margin-left: 37%;
     width: 55%;
   }
 
-  #hero-outer{
-    height:360px;
+  #hero-outer {
+    height: 360px;
   }
 
-  #cover-text h2{
+  #cover-text h2 {
     right: 70%;
   }
-    
-  }
 
-  /* 
+}
+
+/* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
+
   h2 {
     width: 75%;
   }
@@ -912,15 +919,15 @@ margin-left: 37%;
     margin-left: 15px;
   }
 
-  .menu{
+  .menu {
     letter-spacing: -0.9px;
   }
 
-  menu li{
+  menu li {
     font-size: 35%;
   }
 
-  #cover-text h2{
+  #cover-text h2 {
     right: 70%;
   }
 
@@ -929,17 +936,17 @@ margin-left: 37%;
     /* Adjust the height of the box container*/
     background-color: white;
     /* Remove: design help*/
-}
+  }
 
-#braai-image {
-  height: 10%;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-left: 18%;
+  #braai-image {
+    height: 10%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 18%;
   }
 
   #box-image {
@@ -949,79 +956,79 @@ margin-left: 37%;
     /* Remove: design help*/
   }
 
- #box-image{
-  height: 10%;
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-left: 18%;
+  #box-image {
+    height: 10%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 18%;
 
- }  
-
-
-.icon-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 15px 0;
-}
-
-.icon-container div {
-  margin: 10px 0;
-}
-
-#pricing {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.pricing-table {
-  border: 2px solid black;
-  background-color: black;
-  color: #fff;
-  padding: 30px;
-  padding-top: 0px;
-  text-align: center;
-  margin: 20px;
-  margin-left: 13%;
-  width: 55%;
-}
-
-.logo {
-  float: left;
-  font-size: 60%;
-  color: #ffffff;
-  margin-left: 5px;
-  font-family: Aboreto, sans-serif;
-  letter-spacing: 0.4px;
-
-}
-
-/*Navigation link*/
+  }
 
 
-.menu li {
-  float: right;
-  margin-right: 30px;
-  list-style-type: none;
-  font-size: 65%;
-}
+  .icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px 0;
+  }
 
-#photos {
-  clear: both;
-  line-height: 0;
-  column-count: 1;
-  column-gap: 0;
-}
+  .icon-container div {
+    margin: 10px 0;
+  }
 
-.order-button{
-  font-size: 13px;
-}
+  #pricing {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 
-    
+  .pricing-table {
+    border: 2px solid black;
+    background-color: black;
+    color: #fff;
+    padding: 30px;
+    padding-top: 0px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 13%;
+    width: 55%;
+  }
+
+  .logo {
+    float: left;
+    font-size: 60%;
+    color: #ffffff;
+    margin-left: 5px;
+    font-family: Aboreto, sans-serif;
+    letter-spacing: 0.4px;
+
+  }
+
+  /*Navigation link*/
+
+
+  .menu li {
+    float: right;
+    margin-right: 30px;
+    list-style-type: none;
+    font-size: 65%;
+  }
+
+  #photos {
+    clear: both;
+    line-height: 0;
+    column-count: 1;
+    column-gap: 0;
+  }
+
+  .order-button {
+    font-size: 13px;
+  }
+
+
 }
