@@ -32,6 +32,17 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-family: Lora, sans-serif;
+  letter-spacing: 2px;
+  color: #000;
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 p {
   letter-spacing: 3px;
   margin: 0 auto;
@@ -167,7 +178,6 @@ header {
   from {
     transform: scale(2.1);
   }
-
   to {
     transform: scale(1);
   }
@@ -216,10 +226,9 @@ header {
 }
 
 .icon-container div {
-  margin: 25 35 px;
+  margin: 25px 35px;
   height: fit-content;
   background-color: white;
-  /* Remove: design help*/
 }
 
 /* -----------------------------------------------------------Horizontal line */
@@ -245,7 +254,6 @@ header {
 
 }
 */
-
 
 #braai-image {
   height: 10%;
@@ -411,10 +419,6 @@ ul li {
   left: 70%;
 }
 
-iframe {
-  border: none;
-}
-
 /* -----------------------------------------------------------Contact information*/
 
 #contact-details {
@@ -456,7 +460,7 @@ footer {
   text-align: center;
 }
 
-.social-networks>li {
+.social-networks > li {
   display: inline;
 }
 
@@ -469,46 +473,24 @@ footer {
 
 /* gallery */
 
-#photos {
+#assortment-bbq-photos {
   clear: both;
   line-height: 0;
   column-count: 4;
   column-gap: 0;
 }
 
-#photos>img {
+#assortment-bbq-photos > img {
   width: 100%;
 }
 
 /* -----------------------------------------------------------Media queries */
-
-/* ##Device = Laptops, Desktops
-   ##Screen = B/w 1025px to 1280px
-*/
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-
-
-  .icon-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 15px 0;
-  }
-
-  .icon-container div {
-    margin: 10px 0;
-  }
-
-}
 
 /* ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
   */
 
 @media (min-width: 768px) and (max-width: 1024px) {
-
   #cover-text h2 {
     font-size: large;
     color: #fff;
@@ -527,7 +509,6 @@ footer {
 
     position: absolute;
   }
-
 
   .icon-container {
     display: flex;
@@ -555,9 +536,8 @@ footer {
     text-align: center;
   }
 
-  /*What is in the box?*/
-  / #box {
-    height: fit-content;
+  #box {
+    height: auto;
     /* Adjust the height of the box container*/
   }
 
@@ -569,9 +549,7 @@ footer {
     justify-content: center;
     text-align: center;
     margin-left: 35%;
-
   }
-
 
   /*What on the Menu?*/
 
@@ -617,106 +595,11 @@ footer {
 }
 
 /* 
-  ##Device = Tablets, Ipads (portrait) 
-*/
-
-#pricing {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.pricing-table {
-  border: 2px solid black;
-  background-color: black;
-  color: #fff;
-  padding: 30px;
-  padding-top: 0px;
-  text-align: center;
-  margin: 20px;
-  margin-left: 18%;
-  width: 55%;
-}
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-
-@media (min-width: 768px) and (max-width: 1024px) {
-
-  h2 {
-    width: 80%;
-  }
-
-  p {
-    width: 50%;
-  }
-
-  #braai {
-    height: fit-content;
-    /* Adjust the height of the box container*/
-    background-color: white;
-    /* Remove: design help*/
-  }
-
-  #braai-image {
-    height: 10%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-left: 37%;
-  }
-
-
-
-  #box-image {
-    margin-left: 40%;
-
-  }
-
-  /*What on the Menu?*/
-
-  #menu-image {
-    margin-left: 25%;
-  }
-
-  /*What are the Box Packages?*/
-  /*_______________FIx Here______*/
-  #pricing {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .pricing-table {
-    border: 2px solid black;
-    background-color: black;
-    color: #fff;
-    padding: 30px;
-    padding-top: 0px;
-    text-align: center;
-    margin: 20px;
-    margin-left: 18%;
-    width: 55%;
-  }
-
-}
-
-
-}
-
-/* 
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
 */
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
   h2 {
     width: 80%;
   }
@@ -725,29 +608,12 @@ footer {
     width: 50%;
   }
 
-  #braai {
-    height: fit-content;
-    /* Adjust the height of the box container*/
-    background-color: white;
-    /* Remove: design help*/
-  }
-
   #braai-image {
-    height: 10%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-left: 37%;
+    margin-left: 40%;
   }
-
-
 
   #box-image {
     margin-left: 40%;
-
   }
 
   /*What on the Menu?*/
@@ -757,7 +623,6 @@ footer {
   }
 
   /*What are the Box Packages?*/
-  /*_______________FIx Here______*/
   #pricing {
     display: flex;
     justify-content: center;
@@ -765,17 +630,9 @@ footer {
   }
 
   .pricing-table {
-    border: 2px solid black;
-    background-color: black;
-    color: #fff;
-    padding: 30px;
-    padding-top: 0px;
-    text-align: center;
-    margin: 20px;
-    margin-left: 18%;
-    width: 55%;
+    margin-left: 34%;
+    width: 25%;
   }
-
 }
 
 /* 
@@ -784,7 +641,6 @@ footer {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-
   .logo {
     font-size: 115%;
   }
@@ -794,11 +650,17 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    margin: 15px 0
+    margin: 15px 0;
   }
 
   .icon-container div {
     margin: 10px 0;
+  }
+
+  div#hero-image {
+    /* Tutor Help: Resize the heigh of the image without cutting of any picture details*/
+    width: 100%;
+    height: 250px;
   }
 
   h2 {
@@ -892,143 +754,4 @@ footer {
   #hero-outer {
     height: 360px;
   }
-
-  #cover-text h2 {
-    right: 70%;
-  }
-
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-
-  h2 {
-    width: 75%;
-  }
-
-  p {
-    width: 50%;
-  }
-
-  .logo {
-    font-size: 115%;
-    margin-left: 15px;
-  }
-
-  .menu {
-    letter-spacing: -0.9px;
-  }
-
-  menu li {
-    font-size: 35%;
-  }
-
-  #cover-text h2 {
-    right: 70%;
-  }
-
-  #braai {
-    height: fit-content;
-    /* Adjust the height of the box container*/
-    background-color: white;
-    /* Remove: design help*/
-  }
-
-  #braai-image {
-    height: 10%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-left: 18%;
-  }
-
-  #box-image {
-    height: fit-content;
-    /* Adjust the height of the box container*/
-    background-color: white;
-    /* Remove: design help*/
-  }
-
-  #box-image {
-    height: 10%;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-left: 18%;
-
-  }
-
-
-  .icon-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 15px 0;
-  }
-
-  .icon-container div {
-    margin: 10px 0;
-  }
-
-  #pricing {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .pricing-table {
-    border: 2px solid black;
-    background-color: black;
-    color: #fff;
-    padding: 30px;
-    padding-top: 0px;
-    text-align: center;
-    margin: 20px;
-    margin-left: 13%;
-    width: 55%;
-  }
-
-  .logo {
-    float: left;
-    font-size: 60%;
-    color: #ffffff;
-    margin-left: 5px;
-    font-family: Aboreto, sans-serif;
-    letter-spacing: 0.4px;
-
-  }
-
-  /*Navigation link*/
-
-
-  .menu li {
-    float: right;
-    margin-right: 30px;
-    list-style-type: none;
-    font-size: 65%;
-  }
-
-  #photos {
-    clear: both;
-    line-height: 0;
-    column-count: 1;
-    column-gap: 0;
-  }
-
-  .order-button {
-    font-size: 13px;
-  }
-
-
 }
